@@ -1,23 +1,26 @@
 {
-  "name": "redux-typescript-angular",
-  "version": "1.0.0",
-  "description": "Redux with typescript and angular",
-  "main": "indexjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "jorgegonzalezperez",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorgegonzalezperez/redux-typescript-angular.git"
-  },
-  "keywords": [
-    "redux",
-    "angular"
-  ],
-  "bugs": {
-    "url": "https://github.com/jorgegonzalezperez/redux-typescript-angular/issues"
-  },
-  "homepage": "https://github.com/jorgegonzalezperez/redux-typescript-angular#readme"
+    "name": "redux-typescript-angular",
+    "version": "1.0.0",
+    "description": "Redux with typescript and angular",
+    "main": "indexjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "jorgegonzalezperez",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jorgegonzalezperez/redux-typescript-angular.git"
+    },
+    "keywords": [
+        "redux",
+        "angular"
+    ],
+    "bugs": {
+        "url": "https://github.com/jorgegonzalezperez/redux-typescript-angular/issues"
+    },
+    "homepage": "https://github.com/jorgegonzalezperez/redux-typescript-angular#readme",
+    "devDependencies": {
+        "ts-node": "^8.0.2"
+    }
 }
