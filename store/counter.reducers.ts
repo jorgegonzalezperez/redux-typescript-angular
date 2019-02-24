@@ -1,14 +1,15 @@
-import { Reducer } from './interfaces/reducer.interface';
-import { Action } from './interfaces/action.interface';
+import { Reducer } from './model/reducer';
+import { Action } from './model/action';
 import { CounterActionsTypes } from './counter.actions';
 
-let reducer: Reducer<number> = (state: number, action: Action) => {
+export const CounterReducer: Reducer<number> = (state: number, action: Action) => {
     switch (action.type) {
         case CounterActionsTypes.INCREMENT:
             return state + 1;
-            break;
         case CounterActionsTypes.DECREMENT:
             return state - 1;
+        case 'PLUS':
+            return state + action.payload;
         default:
             return state;
     }
